@@ -27,7 +27,7 @@ Kelas   : TI.22.A.4
 
 ### Evaluasi dan Pertanyaan
 
-- tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!(#sql)
+- tulis semua perintah-perintah SQL percobaan di atas beserta outputnya `laporan praktikum3 basis data.pdf`
 - Apa bedanya penggunaan RESTRICT dan penggunaan CASCADE
 
   1. RESTRICT: Jika pengaturan RESTRICT diterapkan pada kunci asing, itu berarti ada pembatasan (restriction) yang diterapkan pada operasi penghapusan atau pembaruan yang mempengaruhi baris yang dirujuk oleh kunci asing tersebut. Jika ada upaya untuk menghapus atau memperbarui baris yang memiliki referensi kunci asing, maka operasi tersebut akan gagal dan tidak ada perubahan yang akan terjadi. Dengan kata lain, RESTRICT membatasi tindakan yang melanggar integritas referensial.
