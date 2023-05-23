@@ -15,8 +15,6 @@ Kelas   : TI.22.A.4
 
 ## Tugas Praktikum
 
-![img](gambar/1.png)
-
 1. Lakukan penambahan data pada tabel mahasiswa dengan mengisi kd_ds yang belum ada pada data dosen.
 2. Hapus satu record data pada tabel dosen yang telah dirujuk pada tabel mahasiswa.
 3. Ubah mode menjadi ON UPDATE CASCADE ON DELETE RESTRICT
@@ -69,3 +67,6 @@ Kelas   : TI.22.A.4
   DROP FOREIGN KEY fk_mahasiswa_dosen,
   ADD CONSTRAINT fk_dosenwali FOREIGN KEY (kd_ds) REFERENCES <dosen(kd_ds)> ON UPDATE CASCADE ON DELETE NOT NULL;
   ```
+
+[def]: gambar/11.png
+[def2]: gambar/11.png
